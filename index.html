@@ -12,8 +12,8 @@
     />
     <!--Link do CSS-->
     <link rel="stylesheet" href="./src/css/reset.css" />
-    <link rel="stylesheet" href="./src/css/responsive.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
 
     <title>The Mandalorian</title>
   </head>
@@ -23,7 +23,7 @@
       <div class="personagem">
         <img
           class="imagem"
-          src="./src/img/personagem-ahsoka-tano.jpeg"
+          src="./src/imgs/personagem-ahsoka-tano.jpeg"
           alt="Personagem Ahsoka Tano"
         />
         <div class="conteudo">
@@ -42,8 +42,8 @@
       <div class="personagem">
         <img
           class="imagem"
-          src="./src/img/personagem-boba-fett.jfif"
-          alt="Personagem Fett"
+          src="./src/imgs/personagem-boba-fett.jfif"
+          alt="Personagem Boba Fett"
         />
         <div class="conteudo">
           <i class="logo"></i>
@@ -59,12 +59,12 @@
       <div class="personagem selecionado">
         <img
           class="imagem"
-          src="./src/img/personagem-mandaloriano.jpg"
-          alt="Personagem  Mandaloriano"
+          src="./src/imgs/personagem-mandaloriano.jpg"
+          alt="Personagem Mandaloriano"
         />
         <div class="conteudo selecionado">
           <i class="logo"></i>
-          <h2 class="nome-personagem">O Mandaloriano</h2>
+          <h2 class="nome-personagem">Mandaloriano</h2>
           <p class="descricao">
             É um guerreiro forte, engenhoso e eficiente. Ele é muito rápido e
             preciso com um blaster, e poucos outros personagens da série
@@ -77,12 +77,29 @@
       <div class="personagem">
         <img
           class="imagem"
-          src="./src/img/personagem-Bo-Katan.webp"
-          alt="Personagem Boba Fett"
+          src="./src/imgs/personagem-baby-yoda.jpg"
+          alt="Personagem Roronoa Zoro"
         />
         <div class="conteudo">
           <i class="logo"></i>
-          <h2 class="nome-personagem">Katan Kryze</h2>
+          <h2 class="nome-personagem">Baby Yoda</h2>
+          <p class="descricao">
+            De pele esverdeada, olhos marrons e temperamento único, sua doçura e
+            fofura desencadearam reações infinitas para cada uma de suas
+            aparições. Da mesma espécie do grande mestre Yoda, Grogu, é uma
+            criança sensível à força, nascido por volta de 41 ABY.
+          </p>
+        </div>
+      </div>
+      <div class="personagem">
+        <img
+          class="imagem"
+          src="./src/imgs/personagem-Bo-Katan.webp"
+          alt="Personagem Bo- Katan Kryze"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem">Bo- Katan Kryze</h2>
           <p class="descricao">
             Foi uma princesa humana Mandaloriana nascida na Casa Kryze. Ao longo
             de sua vida, tornou-se tenente do grupo terrorista Olho da Morte,
@@ -92,55 +109,36 @@
           </p>
         </div>
       </div>
-      <div class="personagem">
-        <img
-          class="imagem"
-          src="./src/img/personagem-baby-yoda.jpg"
-          alt="Personagem Baby Yoda"
-        />
-        <div class="conteudo">
-          <i class="logo"></i>
-          <h2 class="nome-personagem">Baby Yoda</h2>
-          <p class="descricao">
-            e pele esverdeada, olhos marrons e temperamento único, sua doçura e
-            fofura desencadearam reações infinitas para cada uma de suas
-            aparições. Da mesma espécie do grande mestre Yoda, Grogu, é uma
-            criança sensível à força, nascido por volta de 41 ABY.
-          </p>
-        </div>
-      </div>
     </main>
     <!-- Lista não Ordenada UL -->
     <ul class="botoes">
       <li>
-        <button class="botao ahsoka_cursor" id="ahsoka">
-          <img src="./src/img/botao-ahsoka.jpg" alt="Ahsoka" />
+        <button class="botao">
+          <img src="./src/imgs/botao-ahsoka.jpg" alt="Ahsoka" />
+        </button>
+      </li>
+      <li>
+        <button class="botao">
+          <img src="./src/imgs/botao-boba-fet.jpg" alt="Boba Fett" />
+        </button>
+      </li>
+      <li>
+        <button class="botao selecionado">
+          <img src="./src/imgs/botao-mandaloriano.jpg" alt=" Mandaloriano" />
         </button>
       </li>
 
       <li>
-        <button class="botao fet-cursor" id="fet">
-          <img src="./src/img/botao-boba-fet.jpg" alt="Boba Fet" />
-        </button>
-      </li>
-
-      <li>
-        <button class="botao mandaloriano-cursor selecionado" id="mandaloriano">
-          <img src="./src/img/botao-mandaloriano.jpg" alt=" O Mandaloriano" />
-        </button>
-      </li>
-
-      <li>
-        <button class="botao katan-cursor" id="katan">
-          <img src="./src/img/botao-Bo-Katan.jpg" alt="Bo Katan" />
+        <button class="botao">
+          <img src="./src/imgs/botao-baby-yoda.jpg" alt="Baby Yoda" />
         </button>
       </li>
       <li>
-        <button class="botao yoda-cursor" id="baby_yoda">
-          <img src="./src/img/botao-baby-yoda.jpg" alt="Baby Yoda" />
+        <button class="botao">
+          <img src="./src/imgs/botao-Bo-Katan.jpg" alt="Bo Katan" />
         </button>
       </li>
     </ul>
-    <script src="./src/java/index.js"></script>
+    <script src="./src/js/index.js"></script>
   </body>
 </html>

@@ -3,7 +3,6 @@ body{
   overflow: hidden;
 }
 
-
 /*criandno um elemento após o  MAIN */
 main::after{
   content: "";
@@ -13,7 +12,7 @@ main::after{
   min-height: 100vh;
   width: 80vw;
 
-  background: linear-gradient(-233deg,#000 30%, rgba(0,0,0,0) 65%) no-repeat;
+  background: linear-gradient(-233deg,#000 25%, rgba(0,0,0,0) 65%) no-repeat;
 }
   /*Esconde todos os elementos "personagem"*/
 
@@ -53,7 +52,7 @@ main .personagem .imagem{
 
 .conteudo .nome-personagem{
   color:#ffffff;
-  font-size: 48px;
+  font-size: 45px;
   font-family: "Secular One";
   font-weight: 400;
   margin-bottom: 20px;
@@ -67,11 +66,11 @@ main .personagem .imagem{
 }
 
 .conteudo .logo {
-  background-image: url("../img/mandalorian-logo.png");
+  background-image: url("../imgs/mandalorian-logo.png");
   background-size: cover;
-  height: 70px;
-  width: 330px;
-margin-bottom: 35px;
+  height: 65px;
+  width: 300px;
+margin-bottom: 30px;
 }
 
 .botoes {
@@ -93,17 +92,17 @@ margin-bottom: 35px;
 .botoes .botao{
   border:none;
   background: #000000;
-
+  cursor:pointer;
   border-radius: 50%;
 }
 
 .botoes .botao img {
   border-radius: 50%;
-  /*cursor:pointer;*/
+
 }
 
 .botoes .botao.selecionado{
   transform: scale(1.2);
-  box-shadow: 0 0 10px #65eb7b;
+  box-shadow: 0 0 10px #D9D9D9;
 
 }
