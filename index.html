@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;500;700&family=Rubik&family=Sarala:wght@400;700&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <!--Link do CSS-->
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <title>The Mandalorian</title>
+  </head>
+
+  <body>
+    <main class="personagens">
+      <div class="personagem">
+        <img
+          class="imagem"
+          src="./src/img/personagem-ahsoka-tano.jpeg"
+          alt="Personagem Ahsoka Tano"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem">Ahsoka Tano</h2>
+          <p class="descricao">
+            Apelidada "Abusada" por seu Mestre e também conhecida como "Ashla"
+            depois das Guerras Clônicas, foi uma Padawan Jedi Togruta designada
+            para ser aprendiz do Cavaleiro Jedi Anakin Skywalker pelo Mestre
+            Jedi Yoda e, depois da guerra, ajudou a estabelecer uma rede de
+            várias células rebeldes contra o Império Galáctico.
+          </p>
+        </div>
+      </div>
+
+      <div class="personagem">
+        <img
+          class="imagem"
+          src="./src/img/personagem-boba-fett.jfif"
+          alt="Personagem Fett"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem">Boba Fett</h2>
+          <p class="descricao">
+            É um caçador de recompensas, assim como seu pai, Jango Fett, de quem
+            também é um clone; é contratado pelo Império e por Jabba the Hutt
+            para encontrar e capturar Han Solo e Chewbacca, acabando por se
+            tornar o arqui-inimigo de Solo.
+          </p>
+        </div>
+      </div>
+      <div class="personagem selecionado">
+        <img
+          class="imagem"
+          src="./src/img/personagem-mandaloriano.jpg"
+          alt="Personagem  Mandaloriano"
+        />
+        <div class="conteudo selecionado">
+          <i class="logo"></i>
+          <h2 class="nome-personagem">O Mandaloriano</h2>
+          <p class="descricao">
+            É um guerreiro forte, engenhoso e eficiente. Ele é muito rápido e
+            preciso com um blaster, e poucos outros personagens da série
+            conseguem demonstrar um nível de combate corpo a corpo semelhante ao
+            dele, com exceção de Cara Dune.
+          </p>
+        </div>
+      </div>
+
+      <div class="personagem">
+        <img
+          class="imagem"
+          src="./src/img/personagem-Bo-Katan.webp"
+          alt="Personagem Boba Fett"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem">Katan Kryze</h2>
+          <p class="descricao">
+            Foi uma princesa humana Mandaloriana nascida na Casa Kryze. Ao longo
+            de sua vida, tornou-se tenente do grupo terrorista Olho da Morte,
+            oficial comandante de sua subdivisão de Corujas Noturnas, líder da
+            resistência de Mandalore e até mesmo a Mand'alor que reivindicou seu
+            mundo natal, o planeta Mandalore.
+          </p>
+        </div>
+      </div>
+      <div class="personagem">
+        <img
+          class="imagem"
+          src="./src/img/personagem-baby-yoda.jpg"
+          alt="Personagem Baby Yoda"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem">Baby Yoda</h2>
+          <p class="descricao">
+            e pele esverdeada, olhos marrons e temperamento único, sua doçura e
+            fofura desencadearam reações infinitas para cada uma de suas
+            aparições. Da mesma espécie do grande mestre Yoda, Grogu, é uma
+            criança sensível à força, nascido por volta de 41 ABY.
+          </p>
+        </div>
+      </div>
+    </main>
+    <!-- Lista não Ordenada UL -->
+    <ul class="botoes">
+      <li>
+        <button class="botao ahsoka_cursor" id="ahsoka">
+          <img src="./src/img/botao-ahsoka.jpg" alt="Ahsoka" />
+        </button>
+      </li>
+
+      <li>
+        <button class="botao fet-cursor" id="fet">
+          <img src="./src/img/botao-boba-fet.jpg" alt="Boba Fet" />
+        </button>
+      </li>
+
+      <li>
+        <button class="botao mandaloriano-cursor selecionado" id="mandaloriano">
+          <img src="./src/img/botao-mandaloriano.jpg" alt=" O Mandaloriano" />
+        </button>
+      </li>
+
+      <li>
+        <button class="botao katan-cursor" id="katan">
+          <img src="./src/img/botao-Bo-Katan.jpg" alt="Bo Katan" />
+        </button>
+      </li>
+      <li>
+        <button class="botao yoda-cursor" id="baby_yoda">
+          <img src="./src/img/botao-baby-yoda.jpg" alt="Baby Yoda" />
+        </button>
+      </li>
+    </ul>
+    <script src="./src/java/index.js"></script>
+  </body>
+</html>

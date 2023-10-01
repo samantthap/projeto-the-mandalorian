@@ -1,0 +1,12 @@
+/*tira as bordas e margens da pagina*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Tirar as bolinhas da lista*/
+ul{
+  list-style: none;
+}
